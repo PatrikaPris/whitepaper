@@ -12,7 +12,6 @@ Vegaswap is a novel AMM protocol which is built as a platform to enable a wider 
 The marketplace enables traders to swap assets. The marketplace contract keeps track of the pools that have been created and are available for trading. Vegaswap allows for different types of pools to exist, which have different features depending on the assets traded and the governance of the pool.
 
  ```javascript
-/// the marketplace which keeps track of pools and manages them
 contract Marketplace {
   
 	/// start a new pool which is called by delegates
